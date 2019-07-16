@@ -1,6 +1,7 @@
-FROM golang:1.10.0
+FROM golang:1.12.7-alpine3.9
 
 WORKDIR /go/src/app
 
-RUN curl https://glide.sh/get | sh
+
+
 CMD ["./app"]
